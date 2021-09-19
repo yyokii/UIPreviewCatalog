@@ -7,6 +7,9 @@
 
 import Foundation
 import SwiftUI
+
+#if canImport(UIKit)
+
 import UIKit
 
 public func snapshotAll(previewItems: [PreviewItem]) {
@@ -66,3 +69,4 @@ func getSaveDirectoryPath() -> String {
     return path
 }
 
+#endif
