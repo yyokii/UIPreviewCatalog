@@ -1,6 +1,6 @@
 #!/bin/sh
 
 ../Sourcery/sourcery \
-   --sources ./UIPreviewCatalog \
-   --templates ./UIPreviewCatalog/Templates/ \
-   --output ./UIPreviewCatalog \
+   --sources $SCRIPT_INPUT_FILE_0 \
+   --templates ../CodeGenerator/Templates/ \
+   --output $SCRIPT_OUTPUT_FILE_0 \
