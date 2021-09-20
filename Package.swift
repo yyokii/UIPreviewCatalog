@@ -6,21 +6,22 @@ import PackageDescription
 let package = Package(
     name: "UIPreviewCatalog",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
             name: "UIPreviewCatalog",
-            targets: ["SnapshotFeature"]),
+            targets: ["UIPreviewCatalog"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "SnapshotFeature",
+            name: "UIPreviewCatalog",
             dependencies: []),
         
         .testTarget(
-            name: "SnapshotFeatureTests",
-            dependencies: ["SnapshotFeature"]),
+            name: "UIPreviewCatalogTests",
+            dependencies: ["UIPreviewCatalog"]),
     ]
 )
