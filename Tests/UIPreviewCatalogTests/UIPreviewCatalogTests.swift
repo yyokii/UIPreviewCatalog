@@ -1,5 +1,5 @@
     import XCTest
-    @testable import SnapshotFeature
+    @testable import UIPreviewCatalog
 
     final class UIPreviewCatalogTests: XCTestCase {
         func testExample() {
