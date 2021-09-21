@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/SourceryJS.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/SourceryJS.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryJS/Sources/EJSTemplate.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/Sources/EJSTemplate.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/Sources/EJSTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/Sources/EJSTemplate.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/resource_bundle_accessor.swiftdeps"
+  }
+}

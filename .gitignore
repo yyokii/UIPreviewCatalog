@@ -8,3 +8,4 @@ DerivedData/
 
 # Not ignore Sourcery .build
 !/Tools/CodeGenerator/Sourcery/**
+/Tools/CodeGenerator/*.DS_Store

@@ -1,0 +1,4 @@
+module TryCatch {
+    umbrella header "/Users/yoki/Downloads/Sourcery-1.5.0/TryCatch/include/TryCatch.h"
+    export *
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "0f018153b89607b78d132dca06f4fce9"
+build_time: [1632212148, 476997000]
+inputs:
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourcerySwift/Sources/SourceryRuntime.content.generated.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourcerySwift/Sources/SwiftTemplate.swift": [9223372036, 854775807]

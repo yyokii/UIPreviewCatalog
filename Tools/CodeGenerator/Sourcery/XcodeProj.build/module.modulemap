@@ -1,0 +1,4 @@
+module XcodeProj {
+    header "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/XcodeProj.build/XcodeProj-Swift.h"
+    requires objc
+}

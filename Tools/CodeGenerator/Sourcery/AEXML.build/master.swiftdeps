@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "a31c9478080e653da45ddc702f00b25a"
+build_time: [1632212131, 444135000]
+inputs:
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/AEXML/Sources/AEXML/Document.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/AEXML/Sources/AEXML/Element.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/AEXML/Sources/AEXML/Error.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/AEXML/Sources/AEXML/Options.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/AEXML/Sources/AEXML/Parser.swift": [9223372036, 854775807]

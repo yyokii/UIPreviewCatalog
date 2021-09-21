@@ -1,0 +1,52 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Commander.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Commander.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/ArgumentConvertible.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentConvertible.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentConvertible.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/ArgumentDescription.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentDescription.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentDescription~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentDescription.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/ArgumentParser.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentParser.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/ArgumentParser.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/Command.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Command.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Command~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Command.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/CommandRunner.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/CommandRunner.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/CommandRunner~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/CommandRunner.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/CommandType.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/CommandType.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/CommandType~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/CommandType.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/Commands.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Commands.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Commands~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Commands.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/Error.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Error.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Error.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Commander/Sources/Commander/Group.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Group.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Group~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Group.swiftdeps"
+  }
+}

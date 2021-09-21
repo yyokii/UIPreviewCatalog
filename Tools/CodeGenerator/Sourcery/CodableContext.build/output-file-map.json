@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/CodableContext.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/CodableContext.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Templates/Tests/Context/AutoCodable.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/Context/AutoCodable.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/Context/AutoCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/Context/AutoCodable.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Templates/Tests/Generated/AutoCodable.generated.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/Generated/AutoCodable.generated.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/Generated/AutoCodable.generated~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/CodableContext.build/Generated/AutoCodable.generated.swiftdeps"
+  }
+}

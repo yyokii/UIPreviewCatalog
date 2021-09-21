@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "8b985e4beee43fcc490f1c9ace4dc2cc"
+build_time: [1632212131, 67234000]
+inputs:
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Templates/Tests/Context/AutoCodable.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Templates/Tests/Generated/AutoCodable.generated.swift": [9223372036, 854775807]

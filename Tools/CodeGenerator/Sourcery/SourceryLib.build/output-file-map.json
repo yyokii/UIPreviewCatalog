@@ -1,0 +1,57 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/SourceryLib.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/SourceryLib.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Configuration.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Configuration.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Configuration.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Generating/Templates/JavaScript/JavaScriptTemplate.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/JavaScript/JavaScriptTemplate.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/JavaScript/JavaScriptTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/JavaScript/JavaScriptTemplate.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Generating/Templates/Stencil/StencilTemplate.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Stencil/StencilTemplate.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Stencil/StencilTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Stencil/StencilTemplate.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Generating/Templates/Swift/SwiftTemplate.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Swift/SwiftTemplate.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Swift/SwiftTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Swift/SwiftTemplate.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Sourcery.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Sourcery.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Sourcery~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Sourcery.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Utils/ByteRangeConversion.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/ByteRangeConversion.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/ByteRangeConversion~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/ByteRangeConversion.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Utils/BytesRange + Editing.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/BytesRange + Editing.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/BytesRange + Editing~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/BytesRange + Editing.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Utils/FolderWatcher.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/FolderWatcher.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/FolderWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/FolderWatcher.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Utils/NSRange + Editing.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/NSRange + Editing.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/NSRange + Editing~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/NSRange + Editing.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/Sourcery/Utils/Xcode+Extensions.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/Xcode+Extensions.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/Xcode+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/Xcode+Extensions.swiftdeps"
+  }
+}

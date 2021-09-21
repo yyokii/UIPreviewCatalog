@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "b62c7711cd5d5a28f702a8ddd2da216c"
+build_time: [1632212135, 976273000]
+inputs:
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryUtils/Sources/Path+Extensions.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryUtils/Sources/Sha.swift": [9223372036, 854775807]
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryUtils/Sources/Version.swift": [9223372036, 854775807]
