@@ -1,0 +1,4 @@
+module QuickObjCRuntime {
+    umbrella header "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Quick/Sources/QuickObjCRuntime/include/QuickObjCRuntime.h"
+    export *
+}

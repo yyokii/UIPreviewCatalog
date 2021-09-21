@@ -1,0 +1,22 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/SourceryStencil.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/SourceryStencil.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryStencil/Sources/NewLineNode.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/NewLineNode.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/NewLineNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/NewLineNode.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryStencil/Sources/StencilTemplate.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/StencilTemplate.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/StencilTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/StencilTemplate.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryStencil/Sources/TypedNode.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/TypedNode.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/TypedNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/TypedNode.swiftdeps"
+  }
+}

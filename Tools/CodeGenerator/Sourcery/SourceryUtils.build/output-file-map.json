@@ -1,0 +1,22 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/SourceryUtils.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/SourceryUtils.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryUtils/Sources/Path+Extensions.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Path+Extensions.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Path+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Path+Extensions.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryUtils/Sources/Sha.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Sha.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Sha~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Sha.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryUtils/Sources/Version.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Version.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Version~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Version.swiftdeps"
+  }
+}

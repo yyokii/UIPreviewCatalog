@@ -1,0 +1,4 @@
+module _CSwiftSyntax {
+    umbrella "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/swift-syntax/Sources/_CSwiftSyntax/include"
+    export *
+}

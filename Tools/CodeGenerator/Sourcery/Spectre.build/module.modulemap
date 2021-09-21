@@ -1,0 +1,4 @@
+module Spectre {
+    header "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Spectre.build/Spectre-Swift.h"
+    requires objc
+}

@@ -1,0 +1,82 @@
+{
+  "": {
+    "dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Yams.d",
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Yams.o",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/master.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Constructor.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Constructor.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Constructor~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Constructor.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Decoder.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Decoder.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Decoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Decoder.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Emitter.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Emitter.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Emitter~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Emitter.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Encoder.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Encoder.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Encoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Encoder.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Mark.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Mark.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Mark~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Mark.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Node.Mapping.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Mapping.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Mapping~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Mapping.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Node.Scalar.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Scalar.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Scalar~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Scalar.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Node.Sequence.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Sequence.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Sequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.Sequence.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Node.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Node.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Parser.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Parser.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Parser.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Representer.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Representer.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Representer~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Representer.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Resolver.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Resolver.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Resolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Resolver.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/String+Yams.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/String+Yams.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/String+Yams~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/String+Yams.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/Tag.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Tag.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Tag~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/Tag.swiftdeps"
+  },
+  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/Yams/Sources/Yams/YamlError.swift": {
+    "object": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/YamlError.swift.o",
+    "swiftmodule": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/YamlError~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Yams.build/YamlError.swiftdeps"
+  }
+}

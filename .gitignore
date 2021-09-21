@@ -1,7 +1,11 @@
 .DS_Store
-/.build
+.build
 /Packages
 /*.xcodeproj
 xcuserdata/
 DerivedData/
 .swiftpm
+
+# Not ignore Sourcery .build
+!/Tools/CodeGenerator/Sourcery/**
+/Tools/CodeGenerator/*.DS_Store
