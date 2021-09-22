@@ -66,7 +66,6 @@ public struct UIPreviewCatalog {
         }
     }
 
-    #warning("これどうにかしたい、run script？あしんどいか")
     public static func getSaveDirectoryPath() -> String {
         let path = ProcessInfo.processInfo.environment["PREVIEW_CATALOG_PATH"] ?? ""
         return path
