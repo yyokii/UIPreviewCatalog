@@ -1,5 +1,5 @@
 //
-//  SnapshotUIView.swift
+//  UIPreviewCatalog.swift
 //  
 //
 //  Created by Higashihara Yoki on 2021/09/18.
