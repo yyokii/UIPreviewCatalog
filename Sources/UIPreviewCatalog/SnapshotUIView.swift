@@ -30,7 +30,7 @@ struct UIPreviewCatalog {
         }
     }
 
-    private func setupFileName(item: PreviewItem, preview: _Preview, previewIndex: Int) -> String {
+    public static func generateSnapshotFileName(item: PreviewItem, preview: _Preview, previewIndex: Int) -> String {
         var fileName = "\(item.name)"
         if let displayName = preview.displayName {
             fileName += "_\(displayName)"
@@ -40,7 +40,7 @@ struct UIPreviewCatalog {
         return fileName
     }
 
-   private func recordSnapshot(of view: UIView, with name: String) {
+   public static func recordSnapshot(of view: UIView, with name: String) {
         let snapShot: UIImage = view.asImage()
         saveImage(of: snapShot, with: name)
     }
