@@ -12,7 +12,7 @@ import SwiftUI
 
 import UIKit
 
-struct UIPreviewCatalog {
+public struct UIPreviewCatalog {
     
     public static func snapshotAll(previewItems: [PreviewItem]) {
         for item in previewItems {
@@ -66,6 +66,7 @@ struct UIPreviewCatalog {
         }
     }
 
+    #warning("これどうにかしたい、run script？あしんどいか")
     public static func getSaveDirectoryPath() -> String {
         let path = ProcessInfo.processInfo.environment["PREVIEW_CATALOG_PATH"] ?? ""
         return path
