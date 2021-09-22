@@ -21,7 +21,7 @@ struct UIPreviewCatalog {
                 window.rootViewController = UIHostingController(rootView: preview.content)
                 window.makeKeyAndVisible()
                 
-                let fileName = setupFileName(item: item, preview: preview, previewIndex: index)
+                let fileName = generateSnapshotFileName(item: item, preview: preview, previewIndex: index)
                 
                 if let targetView = window.rootViewController?.view {
                     recordSnapshot(of: targetView, with: fileName)
@@ -45,7 +45,7 @@ struct UIPreviewCatalog {
         saveImage(of: snapShot, with: name)
     }
 
-   private func saveImage(of image: UIImage, with name: String) {
+   public static func saveImage(of image: UIImage, with name: String) {
         if let data = image.jpegData(compressionQuality: 0.8) {
             let now = Date()
             
@@ -66,7 +66,7 @@ struct UIPreviewCatalog {
         }
     }
 
-    private func getSaveDirectoryPath() -> String {
+    public static func getSaveDirectoryPath() -> String {
         let path = ProcessInfo.processInfo.environment["PREVIEW_CATALOG_PATH"] ?? ""
         return path
     }
