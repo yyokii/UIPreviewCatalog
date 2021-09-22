@@ -1,5 +1,6 @@
 import SwiftUI
 import UIPreviewCatalog
+@testable import {{ argument.mainTarget }}
 
 let previewItems: [PreviewItem] = [
 {% for type in types.based.PreviewProvider %}
