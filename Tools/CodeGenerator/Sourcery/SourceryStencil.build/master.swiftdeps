@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "3457969689d68569c6ea9a58bc4d3e6b"
-build_time: [1632212148, 476997000]
-inputs:
-  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryStencil/Sources/NewLineNode.swift": [9223372036, 854775807]
-  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryStencil/Sources/StencilTemplate.swift": [9223372036, 854775807]
-  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryStencil/Sources/TypedNode.swift": [9223372036, 854775807]
