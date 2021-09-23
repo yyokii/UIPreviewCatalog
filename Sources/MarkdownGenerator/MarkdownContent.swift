@@ -17,7 +17,7 @@ public struct MarkdownContentNormal: MarkdownContent {
     }
 }
 
-func +(lhs: MarkdownContent, rhs: MarkdownContent) -> MarkdownContentNormal{
+public func +(lhs: MarkdownContent, rhs: MarkdownContent) -> MarkdownContentNormal{
     let content = lhs.content + "\n\n" + rhs.content
     return MarkdownContentNormal(content: content)
 }
