@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import XCTest
 
 #if canImport(UIKit)
 
@@ -25,6 +26,8 @@ public struct UIPreviewCatalog {
                 
                 if let targetView = window.rootViewController?.view {
                     recordSnapshot(of: targetView, with: fileName)
+                } else {
+                    print("No.\(index+1) of \(item.name) with the display name \(preview.displayName ?? "(empty)") could not be saved.")
                 }
             }
         }
@@ -61,14 +64,19 @@ public struct UIPreviewCatalog {
                                                         attributes: nil)
                 try data.write(to: filePath)
             } catch let error {
+                XCTFail("Failed to output the file. We apologize for the inconvenience, please report it on GitHub.")
                 print(error.localizedDescription)
             }
         }
     }
 
     public static func getSaveDirectoryPath() -> String {
-        let path = ProcessInfo.processInfo.environment["PREVIEW_CATALOG_PATH"] ?? ""
-        return path
+        if let path = ProcessInfo.processInfo.environment["PREVIEW_CATALOG_PATH"] {
+            return path
+        } else {
+            XCTFail("Set PREVIEW_CATALOG_PATH in the Environment Variables to specify the output location of the file.")
+            return ""
+        }
     }
 }
 
