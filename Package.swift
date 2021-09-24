@@ -18,11 +18,17 @@ let package = Package(
     targets: [
         .target(
             name: "MarkdownGenerator",
+            dependencies: [
+                "SwiftHelpers"
+            ]),
+        .target(
+            name: "SwiftHelpers",
             dependencies: []),
         .target(
             name: "UIPreviewCatalog",
             dependencies: [
                 "MarkdownGenerator",
+                "SwiftHelpers"
             ]),
         
         .testTarget(
