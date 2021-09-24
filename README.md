@@ -112,4 +112,4 @@ Pull requests and issues are always welcome. Please open any issues and PRs for 
 
 ## License
 
-FlickrImageDownloader is licensed under the MIT license. See [LICENSE](https://github.com/yyokii/FlickrImageDownloader/blob/main/LICENSE) for more info.
+UIPreviewCatalog is licensed under the MIT license. See [LICENSE](https://github.com/yyokii/UIPreviewCatalog/blob/main/LICENSE) for more info.
