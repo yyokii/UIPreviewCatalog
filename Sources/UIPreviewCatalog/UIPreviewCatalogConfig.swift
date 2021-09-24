@@ -26,7 +26,7 @@ public struct UIPreviewCatalogConfig {
 }
 
 extension UIPreviewCatalogConfig {
-    static let defaultConfig: Self = .init(directoryName: "UIPreviewCatalog",
+    public static let defaultConfig: Self = .init(directoryName: "UIPreviewCatalog",
                                            imageDirectoryName: "Images",
                                            markdownImageLinkWidth: 200,
                                            markdownImageLinkHeight: nil,
