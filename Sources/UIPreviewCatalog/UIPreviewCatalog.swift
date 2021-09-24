@@ -17,16 +17,16 @@ public class UIPreviewCatalog {
     typealias SavedItem = (name: String, fileName: String)
     
     let config: UIPreviewCatalogConfig
-    let snapshotFilenameExtension = ".jpg"
+    let imageFilenameExtension = ".jpg"
     
-    var savedSnapshots: [SavedItem] = []
+    var savedSnapshotsInfo: [SavedItem] = []
     
     public init(config: UIPreviewCatalogConfig) {
         self.config = config
     }
     
     public func createCatalog(previewItems: [PreviewItem]) throws {
-        savedSnapshots.removeAll()
+        savedSnapshotsInfo.removeAll()
         
         // Create Directory
         let snapshotsDirectoryPath = try getSnapShotsDirectoryPath()
@@ -35,7 +35,7 @@ public class UIPreviewCatalog {
         // Generate Snapshots and Markdown
         try snapshotAll(previewItems: previewItems)
         let markdownContent = generateMarkdownContent(previewItemsCount: previewItems.count,
-                                                      savedSnapshots: savedSnapshots,
+                                                      savedSnapshotsInfo: savedSnapshotsInfo,
                                                       config: config)
         let markdownBasePath = try getUIPreviewCatalogDirectoryPath()
         let mdGenerator = MarkdownFileGenerator(basePath: markdownBasePath,
@@ -56,7 +56,7 @@ public class UIPreviewCatalog {
                 if let targetView = window.rootViewController?.view {
                     try saveSnapshot(of: targetView, with: filename)
                     #warning("check failed case")
-                    savedSnapshots.append((name: filename, fileName: filename))
+                    savedSnapshotsInfo.append((name: filename, fileName: filename))
                 } else {
                     #warning("need throw?")
                     print("No.\(index+1) of \(item.name) with the display name \(preview.displayName ?? "(empty)") could not be saved.")
@@ -65,16 +65,16 @@ public class UIPreviewCatalog {
         }
     }
     
-    private func saveMarkdown(previewItemsCount: Int, savedSnapshots: [SavedItem], config: UIPreviewCatalogConfig) {
+    private func saveMarkdown(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) {
         
     }
     
-    private func generateMarkdownContent(previewItemsCount: Int, savedSnapshots: [SavedItem], config: UIPreviewCatalogConfig) -> MarkdownContent {
+    private func generateMarkdownContent(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) -> MarkdownContent {
         let title = "UI Preview Catalog"
         let description = """
         This is a list of Previews that conform to PreviewProvider.
         Number of Views: \(previewItemsCount)
-        Number of preview patterns: \(savedSnapshots.count)
+        Number of preview patterns: \(savedSnapshotsInfo.count)
         """
         let previewsHeader = "Previews"
         
@@ -84,9 +84,9 @@ public class UIPreviewCatalog {
         
         var outputMd = mdTitle + mdDescription + mdPreviewsHeader
         
-        savedSnapshots.forEach {
+        savedSnapshotsInfo.forEach {
             let mdPreviewItemName = MarkdownContentNormal(content: $0.name)
-            let mdImageFileLink = MarkdownResizableImageLink(srcPath: "\(config.baseDirectoryName)/\($0.fileName)\(snapshotFilenameExtension)",
+            let mdImageFileLink = MarkdownResizableImageLink(srcPath: "\(config.baseDirectoryName)/\($0.fileName)\(imageFilenameExtension)",
                                                              width: config.markdownImageLinkWidth,
                                                              height: config.markdownImageLinkHeight)
             
@@ -111,7 +111,7 @@ public class UIPreviewCatalog {
         if let data = snapShot.jpegData(compressionQuality: 0.8) {    
             let snapshotsPath = try getSnapShotsDirectoryPath()
             let saveDir = URL(fileURLWithPath: snapshotsPath, isDirectory: true)
-            let filePath = saveDir.appendingPathComponent("\(name)\(snapshotFilenameExtension)")
+            let filePath = saveDir.appendingPathComponent("\(name)\(imageFilenameExtension)")
             try data.write(to: filePath)
         } else {
             throw UIPreviewCatalogError.failedToCreateImageData
