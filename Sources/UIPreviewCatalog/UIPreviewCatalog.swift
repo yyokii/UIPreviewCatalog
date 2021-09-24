@@ -7,33 +7,96 @@
 
 import Foundation
 import SwiftUI
-import XCTest
-
 #if canImport(UIKit)
-
 import UIKit
 
-public struct UIPreviewCatalog {
+import MarkdownGenerator
+
+public class UIPreviewCatalog {
     
-    public static func snapshotAll(previewItems: [PreviewItem]) {
+    typealias SavedItem = (name: String, fileName: String)
+    
+    let config: UIPreviewCatalogConfig
+    let imageFilenameExtension = ".jpg"
+    
+    var savedSnapshotsInfo: [SavedItem] = []
+    
+    public init(config: UIPreviewCatalogConfig) {
+        self.config = config
+    }
+    
+    public func createCatalog(previewItems: [PreviewItem]) throws {
+        savedSnapshotsInfo.removeAll()
+        
+        // Create Directory
+        let snapshotsDirectoryPath = try getSnapShotsDirectoryPath()
+        try FileManager.default.createDirectory(at: snapshotsDirectoryPath)
+        
+        // Generate Snapshots and Markdown
+        try snapshotAll(previewItems: previewItems)
+        let markdownContent = generateMarkdownContent(previewItemsCount: previewItems.count,
+                                                      savedSnapshotsInfo: savedSnapshotsInfo,
+                                                      config: config)
+        let markdownBasePath = try getUIPreviewCatalogDirectoryPath()
+        let mdGenerator = MarkdownFileGenerator(basePath: markdownBasePath,
+                                                filename: config.previewCatalogFilename,
+                                                content: markdownContent)
+        try mdGenerator.write()
+    }
+    
+    private func snapshotAll(previewItems: [PreviewItem]) throws {
+        let window = UIWindow(frame: UIScreen.main.bounds)
         for item in previewItems {
             for (index, preview) in item.previews.enumerated() {
-                let window = UIWindow(frame: UIScreen.main.bounds)
                 window.rootViewController = UIHostingController(rootView: preview.content)
                 window.makeKeyAndVisible()
                 
-                let fileName = generateSnapshotFileName(item: item, preview: preview, previewIndex: index)
+                let filename = generateSnapshotFilename(item: item, preview: preview, previewIndex: index)
                 
                 if let targetView = window.rootViewController?.view {
-                    recordSnapshot(of: targetView, with: fileName)
+                    try saveSnapshot(of: targetView, with: filename)
+                    #warning("check failed case")
+                    savedSnapshotsInfo.append((name: filename, fileName: filename))
                 } else {
+                    #warning("need throw?")
                     print("No.\(index+1) of \(item.name) with the display name \(preview.displayName ?? "(empty)") could not be saved.")
                 }
             }
         }
     }
+    
+    private func saveMarkdown(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) {
+        
+    }
+    
+    private func generateMarkdownContent(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) -> MarkdownContent {
+        let title = "UI Preview Catalog"
+        let description = """
+        This is a list of Previews that conform to PreviewProvider.\n
+        Number of Views: \(previewItemsCount)\n
+        Number of preview patterns: \(savedSnapshotsInfo.count)
+        """
+        let previewsHeader = "Previews"
+        
+        let mdTitle: MarkdownHeader = .init(level: .h1, header: title)
+        let mdDescription: MarkdownContentNormal = .init(content: description)
+        let mdPreviewsHeader: MarkdownHeader = .init(level: .h2, header: previewsHeader)
+        
+        var outputMd = mdTitle + mdDescription + mdPreviewsHeader
+        
+        savedSnapshotsInfo.forEach {
+            let mdPreviewItemName = MarkdownContentNormal(content: $0.name)
+            let mdImageFileLink = MarkdownResizableImageLink(srcPath: "\(config.snapshotsDirectoryName)/\($0.fileName)\(imageFilenameExtension)",
+                                                             width: config.markdownImageLinkWidth,
+                                                             height: config.markdownImageLinkHeight)
+            
+            outputMd = outputMd + mdPreviewItemName + mdImageFileLink
+        }
+        
+        return outputMd
+    }
 
-    public static func generateSnapshotFileName(item: PreviewItem, preview: _Preview, previewIndex: Int) -> String {
+    private func generateSnapshotFilename(item: PreviewItem, preview: _Preview, previewIndex: Int) -> String {
         var fileName = "\(item.name)"
         if let displayName = preview.displayName {
             fileName += "_\(displayName)"
@@ -43,39 +106,35 @@ public struct UIPreviewCatalog {
         return fileName
     }
 
-   public static func recordSnapshot(of view: UIView, with name: String) {
+    private func saveSnapshot(of view: UIView, with name: String) throws {
         let snapShot: UIImage = view.asImage()
-        saveImage(of: snapShot, with: name)
-    }
-
-   public static func saveImage(of image: UIImage, with name: String) {
-        if let data = image.jpegData(compressionQuality: 0.8) {
-            let now = Date()
-            
-            let path = getSaveDirectoryPath()
-            let pathURL = URL(fileURLWithPath: path, isDirectory: true)
-            
-            let saveDir = pathURL.appendingPathComponent("Images_\(now)")
-            let filePath = saveDir.appendingPathComponent("\(name).jpg")
-            #warning("check existance")
-            do {
-                try FileManager.default.createDirectory(at: saveDir,
-                                                        withIntermediateDirectories: true,
-                                                        attributes: nil)
-                try data.write(to: filePath)
-            } catch let error {
-                XCTFail("Failed to output the file. We apologize for the inconvenience, please report it on GitHub.")
-                print(error.localizedDescription)
-            }
+        if let data = snapShot.jpegData(compressionQuality: 0.8) {    
+            let snapshotsPath = try getSnapShotsDirectoryPath()
+            let saveDir = URL(fileURLWithPath: snapshotsPath, isDirectory: true)
+            let filePath = saveDir.appendingPathComponent("\(name)\(imageFilenameExtension)")
+            try data.write(to: filePath)
+        } else {
+            throw UIPreviewCatalogError.failedToCreateImageData
         }
     }
+    
+    private func getUIPreviewCatalogDirectoryPath() throws -> String {
+        let basePath = try getBaseDirectoryPath()
+        let directoryPath = "\(basePath)/\(config.baseDirectoryName)"
+        return directoryPath
+    }
+    
+    private func getSnapShotsDirectoryPath() throws -> String {
+        let catalogPath = try getUIPreviewCatalogDirectoryPath()
+        let directoryPath = "\(catalogPath)/\(config.snapshotsDirectoryName)"
+        return directoryPath
+    }
 
-    public static func getSaveDirectoryPath() -> String {
+    private func getBaseDirectoryPath() throws -> String {
         if let path = ProcessInfo.processInfo.environment["PREVIEW_CATALOG_PATH"] {
             return path
         } else {
-            XCTFail("Set PREVIEW_CATALOG_PATH in the Environment Variables to specify the output location of the file.")
-            return ""
+            throw UIPreviewCatalogError.invalidOutputPath
         }
     }
 }
