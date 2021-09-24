@@ -7,7 +7,7 @@
 
 public struct UIPreviewCatalogConfig {
     public let baseDirectoryName: String
-    public let imageDirectoryName: String
+    public let snapshotsDirectoryName: String
     public let markdownImageLinkWidth: Float?
     public let markdownImageLinkHeight: Float?
     public let previewCatalogFilename: String
@@ -18,7 +18,7 @@ public struct UIPreviewCatalogConfig {
          markdownImageLinkHeight: Float?,
          previewCatalogFilename: String) {
         self.baseDirectoryName = directoryName
-        self.imageDirectoryName = imageDirectoryName
+        self.snapshotsDirectoryName = imageDirectoryName
         self.markdownImageLinkWidth = markdownImageLinkWidth
         self.markdownImageLinkHeight = markdownImageLinkHeight
         self.previewCatalogFilename = previewCatalogFilename

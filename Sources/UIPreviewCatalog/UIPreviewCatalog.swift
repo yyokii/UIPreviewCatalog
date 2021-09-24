@@ -86,7 +86,7 @@ public class UIPreviewCatalog {
         
         savedSnapshotsInfo.forEach {
             let mdPreviewItemName = MarkdownContentNormal(content: $0.name)
-            let mdImageFileLink = MarkdownResizableImageLink(srcPath: "\(config.baseDirectoryName)/\($0.fileName)\(imageFilenameExtension)",
+            let mdImageFileLink = MarkdownResizableImageLink(srcPath: "\(config.snapshotsDirectoryName)/\($0.fileName)\(imageFilenameExtension)",
                                                              width: config.markdownImageLinkWidth,
                                                              height: config.markdownImageLinkHeight)
             
@@ -126,7 +126,7 @@ public class UIPreviewCatalog {
     
     private func getSnapShotsDirectoryPath() throws -> String {
         let catalogPath = try getUIPreviewCatalogDirectoryPath()
-        let directoryPath = "\(catalogPath)/\(config.imageDirectoryName)"
+        let directoryPath = "\(catalogPath)/\(config.snapshotsDirectoryName)"
         return directoryPath
     }
 
