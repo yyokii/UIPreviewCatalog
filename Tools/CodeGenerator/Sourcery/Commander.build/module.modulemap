@@ -1,4 +1,0 @@
-module Commander {
-    header "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/Commander.build/Commander-Swift.h"
-    requires objc
-}

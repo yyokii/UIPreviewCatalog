@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "ca46ff9824f9131b8e74251e0132c079"
-build_time: [1632212135, 974920000]
-inputs:
-  "/Users/yoki/Downloads/Sourcery-1.5.0/SourceryJS/Sources/EJSTemplate.swift": [9223372036, 854775807]
-  "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourceryJS.build/DerivedSources/resource_bundle_accessor.swift": [9223372036, 854775807]

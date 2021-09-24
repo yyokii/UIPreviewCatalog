@@ -1,4 +1,0 @@
-module SourcerySwift {
-    header "/Users/yoki/Downloads/Sourcery-1.5.0/.build/x86_64-apple-macosx/release/SourcerySwift.build/SourcerySwift-Swift.h"
-    requires objc
-}

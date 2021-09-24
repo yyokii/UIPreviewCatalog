@@ -1,4 +1,0 @@
-module CwlMachBadInstructionHandler {
-    umbrella header "/Users/yoki/Downloads/Sourcery-1.5.0/.build/checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h"
-    export *
-}
