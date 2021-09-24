@@ -55,10 +55,8 @@ public class UIPreviewCatalog {
                 
                 if let targetView = window.rootViewController?.view {
                     try saveSnapshot(of: targetView, with: filename)
-                    #warning("check failed case")
                     savedSnapshotsInfo.append((name: filename, fileName: filename))
                 } else {
-                    #warning("need throw?")
                     print("No.\(index+1) of \(item.name) with the display name \(preview.displayName ?? "(empty)") could not be saved.")
                 }
             }
