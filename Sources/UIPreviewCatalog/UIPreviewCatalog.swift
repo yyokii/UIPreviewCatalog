@@ -95,11 +95,10 @@ public class UIPreviewCatalog {
     }
 
     private func generateSnapshotFilename(item: PreviewItem, preview: _Preview, previewIndex: Int) -> String {
-        var fileName = "\(item.name)"
+        var fileName = "\(item.name)_\(previewIndex+1)"
         if let displayName = preview.displayName {
             fileName += "_\(displayName)"
         }
-        fileName += "_\(previewIndex+1)"
         
         return fileName
     }
