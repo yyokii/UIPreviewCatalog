@@ -15,9 +15,9 @@ The demo project is here.
 
 There are three steps to follow.
 
-      1. install the library
-      2. generate the `PreviewItem` array
-      3. generate snapshot and Markdown files
+1. install the library
+2. generate the `PreviewItem` array
+3. generate snapshot and Markdown files
 
 ### 1. Installing the library
 
