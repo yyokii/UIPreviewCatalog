@@ -7,6 +7,8 @@
 
 import Foundation
 
+import SwiftHelpers
+
 public struct MarkdownFileGenerator {
 
     public let basePath: String
@@ -24,18 +26,8 @@ public struct MarkdownFileGenerator {
     }
 
     public func write() throws {
-//        try createDirectory(path: basePath)
+        try FileManager.default.createDirectory(at: basePath)
         let output = mdContent.content
         try output.write(toFile: filePath, atomically: true, encoding: .utf8)
     }
-
-//    private func createDirectory(path: String) throws {
-//        guard path.isEmpty == false else {
-//            return
-//        }
-//        var isDir: ObjCBool = false
-//        if FileManager.default.fileExists(atPath: path, isDirectory: &isDir) == false {
-//            try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
-//        }
-//    }
 }
