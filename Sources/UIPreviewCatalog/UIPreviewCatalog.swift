@@ -72,8 +72,8 @@ public class UIPreviewCatalog {
     private func generateMarkdownContent(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) -> MarkdownContent {
         let title = "UI Preview Catalog"
         let description = """
-        This is a list of Previews that conform to PreviewProvider.
-        Number of Views: \(previewItemsCount)
+        This is a list of Previews that conform to PreviewProvider.\n
+        Number of Views: \(previewItemsCount)\n
         Number of preview patterns: \(savedSnapshotsInfo.count)
         """
         let previewsHeader = "Previews"
