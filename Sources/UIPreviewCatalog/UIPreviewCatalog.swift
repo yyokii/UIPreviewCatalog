@@ -63,10 +63,6 @@ public class UIPreviewCatalog {
         }
     }
     
-    private func saveMarkdown(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) {
-        
-    }
-    
     private func generateMarkdownContent(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) -> MarkdownContent {
         let title = "UI Preview Catalog"
         let description = """
