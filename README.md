@@ -21,7 +21,8 @@ There are three steps to follow.
 
 ### 1. Installing the library
 
-Since it does not affect the functionality of the application, add the dependency to the test target.
+Since it does not affect the functionality of the application, add the dependency to the test target.  
+It can be run in unit tests.
 
 It can be installed using the [Swift Package Manager](https://swift.org/package-manager/#conceptual-overview).  
 It can be installed via Xcode or the `Package.swift` manifest.
