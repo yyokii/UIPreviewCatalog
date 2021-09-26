@@ -12,6 +12,7 @@ import UIKit
 
 import MarkdownGenerator
 
+/// Class responsible for outputting images and markdown
 public class UIPreviewCatalog {
     
     typealias SavedItem = (name: String, fileName: String)
@@ -25,6 +26,9 @@ public class UIPreviewCatalog {
         self.config = config
     }
     
+    /// Run image and markdown generation
+    /// - Parameter previewItems: Preview information to be used as output source
+    /// - Throws: An error of type `Error`
     public func createCatalog(previewItems: [PreviewItem]) throws {
         savedSnapshotsInfo.removeAll()
         
@@ -61,10 +65,6 @@ public class UIPreviewCatalog {
                 }
             }
         }
-    }
-    
-    private func saveMarkdown(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) {
-        
     }
     
     private func generateMarkdownContent(previewItemsCount: Int, savedSnapshotsInfo: [SavedItem], config: UIPreviewCatalogConfig) -> MarkdownContent {
