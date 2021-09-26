@@ -5,6 +5,8 @@
 //  Created by Higashihara Yoki on 2021/09/24.
 //
 
+
+/// Configuration of image and markdown generation and its output content
 public struct UIPreviewCatalogConfig {
     public let baseDirectoryName: String
     public let snapshotsDirectoryName: String
