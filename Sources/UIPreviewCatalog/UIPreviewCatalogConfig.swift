@@ -14,7 +14,7 @@ public struct UIPreviewCatalogConfig {
     public let markdownImageLinkHeight: Float?
     public let previewCatalogFilename: String
     
-    init(directoryName: String,
+    public init(directoryName: String,
          imageDirectoryName: String,
          markdownImageLinkWidth: Float?,
          markdownImageLinkHeight: Float?,
