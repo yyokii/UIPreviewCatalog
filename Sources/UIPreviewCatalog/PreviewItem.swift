@@ -9,7 +9,7 @@ import SwiftUI
 
 /// Preview Information
 public struct PreviewItem {
-    let name: String
+    public let name: String
     let previews: [_Preview]
     
     public init(name: String, previews: [_Preview]){
